@@ -28,7 +28,7 @@ int main()
 	FindClose(findResult);
 }
 
-/*#include <Windows.h>
+#include <Windows.h>
 #include <stdio.h>
 #include <stdbool.h>
 
@@ -67,9 +67,9 @@ int main()
 		&found));
 
 	FindClose(findResult);
-}*/
+}
 
-/*#define НАЧАЛО_ПРОГРАММЫ int main()
+#define НАЧАЛО_ПРОГРАММЫ int main()
 #define НАЧАЛО_БЕСПРЕДЕЛА {
 #define КОНЕЦ_БЕСПРЕДЕЛА }
 #define ЦИКЛ_ЦИКЛ_МОТОЦИКЛ while
