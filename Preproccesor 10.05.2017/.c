@@ -26,8 +26,7 @@ int main()
 
 	} while (FindNextFileA(findResult, &found));
 	FindClose(findResult);
-}*/
-
+}
 
 /*#include <Windows.h>
 #include <stdio.h>
